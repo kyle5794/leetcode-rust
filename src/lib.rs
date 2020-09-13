@@ -14,3 +14,4 @@ pub mod sum_of_subarray_minimums;
 pub mod ugly_number_2;
 pub mod unique_email_addresses;
 pub mod valid_number;
+pub mod coin_change;

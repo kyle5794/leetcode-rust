@@ -1,9 +1,9 @@
 extern crate leetcode;
 
-use leetcode::maximum_subarray::solution;
+use leetcode::coin_change::solution;
 
 fn main() {
-    let r = solution::Solution::max_sub_array(vec![-2,1,-3,4,-1,2,1,-5,4]);
+    let r = solution::Solution::coin_change(vec![2], 3);
 
     println!("{:?}", r);
 }
@@ -16,13 +16,11 @@ fn main() {
 // 1 7 5 2 4 3, 7 5 2 4 3 9
 // 1 7 5 2 4 3 9
 
-
 // 4
 // 3, 1, 2, 4
 // 3 1, 1 2, 2 4
 // 3 1 2, 1 2 4,
-// 3 1 2 4 
-
+// 3 1 2 4
 
 // 1 7 5 2 4 3 9
-// 
+//
