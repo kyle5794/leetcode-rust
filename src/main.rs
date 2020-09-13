@@ -1,6 +1,6 @@
 extern crate leetcode;
 
-use leetcode::prob_53::solution;
+use leetcode::maximum_subarray::solution;
 
 fn main() {
     let r = solution::Solution::max_sub_array(vec![-2,1,-3,4,-1,2,1,-5,4]);
